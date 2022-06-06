@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PictoSearch!</title>
+</head>
+
+<body>
+    <header>
+        PictoSearch the game!
+    </header>
+
+    <div id="camera-screen" style="display: none">
+        <div>
+            <canvas class="monitor"></canvas>
+            <video class="player"></video>
+        </div>
+        <div class="strip"></div>
+        <div>
+            <div id="status">Status: Waiting for your first photo!</div>
+            <button type="button" id="shutter-button" class="button-primary">Take photo</button>
+        </div>
+    </div>
+
+    <footer>
+        <gamestatus></gamestatus>
+        <nav>
+
+        </nav>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
